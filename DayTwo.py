@@ -32,7 +32,7 @@ for line in lines:
     score += scores[stripped]
     strategy += strategies[stripped]
 
-print(score)
-print(strategy)
+print("Puzzle One: " + str(score))
+print("Puzzle Two: " + str(strategy))
 
 two_data.close()
